@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+int Age;
+cout<<"Please enter your Age: ";
+cin>>Age;
+
+int Nationality;
+cout<<"Please enter your nationality: ";
+cin>>Nationality;
+
+int Sound_Mind;
+cout<<"Please enter your sound_mind: ";
+cin>>Sound_Mind;
+
+int VoterID;
+cout<<"Please enter your voterid number: ";
+cin>>Age;
+
+if(Age>=18&& Nationality=="Ghanaian" && Sound_Mind == "Yes" && VoterID == "Yes");{
+cout<<"You are eligible to vote";
+}else {
+cout<<"Please you are not eligible to vote";
+}
+
+return 0;
+}
